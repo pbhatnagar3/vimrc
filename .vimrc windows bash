@@ -1,0 +1,32 @@
+  1 " enable syntax highlighting                                                                                                                                             2 syntax enable
+  3
+  4 " show line numbers
+  5 set number
+  6
+  7 " set tabs to have 4 spaces
+  8 set ts=4
+  9
+ 10 " indent when moving to the next line while writing code
+ 11 set autoindent
+ 12
+ 13 " expand tabs into spaces
+ 14 set expandtab
+ 15
+ 16 " when using the >> or << commands, shift lines by 4 spaces
+ 17 set shiftwidth=4
+ 18
+ 19 " show a visual line under the cursor's current line
+ 20 set cursorline
+ 21
+ 22 " show the matching part of the pair for [] {} and ()
+ 23 set showmatch
+ 24
+ 25 " enable all Python syntax highlighting features
+ 26 let python_highlight_all = 1
+ 27
+ 28
+ 29 colo desert
+ 30 syntax on
+ 31
+ 32 set noerrorbells visualbell t_vb=
+ 33 autocmd GUIEnter * set visualbell t_vb=
