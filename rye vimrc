@@ -1,0 +1,38 @@
+  1 colorscheme desert                                                                2 " set the clipboard to the OS clipboard
+  3 set clipboard=unnamed
+  4 " enable syntax highlighting
+  5  syntax enable
+  6 "
+  7 " " show line numbers
+  8  set number
+  9 "
+ 10 " " set tabs to have 4 spaces
+ 11  set ts=4
+ 12 "
+ 13 " " indent when moving to the next line while writing code
+ 14  set autoindent
+ 15 "
+ 16 " " expand tabs into spaces
+ 17  set expandtab
+ 18 "
+ 19 " " when using the >> or << commands, shift lines by 4 spaces
+ 20  set shiftwidth=4
+ 21 "
+ 22 " " show a visual line under the cursor's current line
+ 23  set cursorline
+ 24 "
+ 25 " " show the matching part of the pair for [] {} and ()
+ 26  set showmatch
+ 27 "
+ 28 " " enable all Python syntax highlighting features
+ 29  let python_highlight_all = 1
+ 30
+ 31
+ 32
+ 33 execute pathogen#infect()
+ 34 " syntax enable
+ 35 " set background=light
+ 36 " colorscheme solarized
+ 37 filetype plugin indent on
+ 38 set noerrorbells visualbell t_vb=
+ 39 autocmd GUIEnter * set visualbell t_vb=
